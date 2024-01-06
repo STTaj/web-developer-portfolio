@@ -1,0 +1,47 @@
+/* dcommon styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* nev Styles are hare */
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nev-title{
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+}
+
+.text-primary{
+    color: #FD6E0A;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
+
+.btn-primary{
+    color: #ffffff;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px; 
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 35px;
+}
