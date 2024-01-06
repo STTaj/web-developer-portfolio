@@ -1,60 +1,118 @@
-/* dcommon styles */
-body{
+/* Shared styles */
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.section-title {
+    color: #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-decription {
+    color:#757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
 /* nev Styles are hare */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin: 0 200px;
 }
-.nev-title{
-font-family: Open Sans;
-font-size: 45px;
-font-weight: 800;
+
+.nev-title {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: var(--Dark-02, #474747);
 }
 
-.btn-primary{
+.btn-primary {
     color: #ffffff;
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
     border-radius: 5px;
     background: #FD6E0A;
-    font-size: 20px; 
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding: 15px 35px;
 }
+
 /* header Styles*/
-.header{
+.header {
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
-    padding: 30px 30px 30px 150px ;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.profile-pic{
+
+.profile-pic {
     width: 500px;
+}
+
+.banner-contant {
+    max-width: 500px;
+}
+
+.banner-griting {
+    font-size: 45px;
+    color: #474747;
+    margin: 0;
+}
+
+.banner-title {
+    margin-top: 5px;
+    font-size: 85px;
+    margin-bottom: 0;
+}
+
+.banner-decription {
+    margin-top: 5px;
+}
+
+/* main section*/
+
+/* about Sections*/
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
 }
